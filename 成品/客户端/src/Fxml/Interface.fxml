@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="607.0" prefWidth="1644.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.InterfaceController">
+   <children>
+      <ImageView fitHeight="670.0" fitWidth="1330.0" layoutX="-87.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Interface.png" />
+         </image>
+      </ImageView>
+      <HBox fx:id="owerField" fillHeight="false" layoutX="259.0" layoutY="467.0" prefHeight="97.0" prefWidth="1397.0">
+         <children>
+            <ImageView id="card1" fx:id="card1" fitHeight="97.0" fitWidth="92.0" onMouseClicked="#handleCardClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card2" fitHeight="97.0" fitWidth="72.0" onMouseClicked="#handleCardClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card3" fitHeight="97.0" fitWidth="72.0" onMouseClicked="#handleCardClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card4" fitHeight="97.0" fitWidth="72.0" onMouseClicked="#handleCardClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card5" fitHeight="97.0" fitWidth="72.0" onMouseClicked="#handleCardClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card6" fitHeight="97.0" fitWidth="72.0" onMouseClicked="#handleCardClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card7" fitHeight="97.0" fitWidth="72.0" onMouseClicked="#handleCardClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card8" fitHeight="97.0" fitWidth="72.0" onMouseClicked="#handleCardClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card9" fitHeight="97.0" fitWidth="99.0" onMouseClicked="#handleCardClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card10" fitHeight="97.0" fitWidth="81.0" onMouseClicked="#handleCardClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card11" fitHeight="97.0" fitWidth="95.0" onMouseClicked="#handleCardClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card12" fitHeight="97.0" fitWidth="104.0" onMouseClicked="#handleCardClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card13" fitHeight="97.0" fitWidth="98.0" onMouseClicked="#handleCardClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card14" fitHeight="97.0" fitWidth="98.0" onMouseClicked="#handleCardClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card15" fitHeight="97.0" fitWidth="87.0" onMouseClicked="#handleCardClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card16" fitHeight="97.0" fitWidth="81.0" onMouseClicked="#handleCardClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card17" fitHeight="97.0" fitWidth="72.0" onMouseClicked="#handleCardClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card18" fitHeight="97.0" fitWidth="72.0" onMouseClicked="#handleCardClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card19" fitHeight="97.0" fitWidth="72.0" onMouseClicked="#handleCardClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card20" fitHeight="97.0" fitWidth="72.0" onMouseClicked="#handleCardClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <ToggleButton fx:id="playButton" layoutX="324.0" layoutY="403.0" mnemonicParsing="false" onMouseClicked="#handlePlayButtonClick" prefHeight="53.0" prefWidth="144.0" style="-fx-background-image: url(&quot;/image/chupai.jpg&quot;); -fx-background-size: cover; -fx-background-size: 150; -fx-background-insets: 40; -fx-background-position: center;" visible="false" />
+      <ToggleButton fx:id="noButton" layoutX="577.0" layoutY="401.0" mnemonicParsing="false" onMouseClicked="#handleNoButtonClick" prefHeight="53.0" prefWidth="144.0" style="-fx-background-image: url(&quot;/image/buchu.jpg&quot;); -fx-background-size: cover; -fx-background-size: 150; -fx-background-insets: 40; -fx-background-position: center;" visible="false" />
+      <ImageView fx:id="cardNo" fitHeight="53.0" fitWidth="147.0" layoutX="248.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/no.png" />
+         </image>
+      </ImageView>
+      <HBox fx:id="player3Field" layoutX="-70.0" layoutY="394.0" prefHeight="0.0" prefWidth="453.0" rotate="90.0">
+         <children>
+            <ImageView fx:id="card38" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card39" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card40" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card41" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card42" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card43" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card44" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card45" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card46" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card47" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card48" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card49" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card50" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card51" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card52" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card53" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card54" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <Label fx:id="timeLable" layoutX="288.0" layoutY="208.0" prefHeight="43.0" prefWidth="38.0" text="倒计时" visible="false" />
+      <HBox fx:id="playField" layoutX="506.0" layoutY="365.0" prefHeight="79.0" prefWidth="54.0" />
+      <HBox fx:id="player2Field" layoutX="570.0" layoutY="397.0" prefHeight="47.0" prefWidth="483.0" rotate="90.0">
+         <children>
+            <ImageView fx:id="card21" fitHeight="53.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card22" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card23" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card24" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card25" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card26" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card27" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card28" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card29" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card30" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card31" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card32" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card33" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card34" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card35" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card36" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card37" fitHeight="100.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rear.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox fx:id="play2Field" layoutX="622.0" layoutY="254.0" prefHeight="65.0" prefWidth="203.0" rotate="90.0" />
+      <HBox fx:id="play3Field" layoutX="118.0" layoutY="278.0" prefHeight="42.0" prefWidth="206.0" rotate="90.0" />
+      <Button fx:id="callLord1" layoutX="360.0" layoutY="263.0" mnemonicParsing="false" onMouseClicked="#CallLord1" prefHeight="30.0" prefWidth="50.0" style="-fx-background-image: url(&quot;/image/1fen.jpg&quot;); -fx-background-size: cover;" />
+      <Button fx:id="callLord3" layoutX="512.0" layoutY="263.0" mnemonicParsing="false" onMouseClicked="#CallLord3" prefHeight="30.0" prefWidth="50.0" style="-fx-background-image: url(&quot;/image/3fen.jpg&quot;); -fx-background-size: cover;" />
+      <ToggleButton fx:id="callLord2" layoutX="436.0" layoutY="263.0" mnemonicParsing="false" onMouseClicked="#CallLord2" prefHeight="30.0" prefWidth="50.0" style="-fx-background-image: url(&quot;/image/2fen.jpg&quot;); -fx-background-size: cover;" />
+      <ToggleButton fx:id="noCallLord" layoutX="588.0" layoutY="263.0" mnemonicParsing="false" onMouseClicked="#NoCallLord" prefHeight="30.0" prefWidth="50.0" style="-fx-background-image: url(&quot;/image/0fen.jpg&quot;); -fx-background-size: cover;" />
+      <ImageView fx:id="player3IsLord" fitHeight="90.0" fitWidth="72.0" layoutX="80.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/one.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="player2IsLord" fitHeight="54.0" fitWidth="72.0" layoutX="800.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/one.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="player1IsLord" fitHeight="79.0" fitWidth="86.0" layoutX="230.0" layoutY="568.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/one.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="remainCards3" editable="false" focusTraversable="false" layoutX="64.0" layoutY="281.0" mouseTransparent="true" prefHeight="66.0" prefWidth="72.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-background-image: url(&quot;/image/handcardnumber.png&quot;); -fx-background-position: center; -fx-background-size: cover;" text="     17">
+         <font>
+            <Font name="Jokerman" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="remainCards2" editable="false" focusTraversable="false" layoutX="854.0" layoutY="281.0" mouseTransparent="true" prefHeight="66.0" prefWidth="72.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-background-image: url(&quot;/image/handcardnumber.png&quot;); -fx-background-position: center; -fx-background-size: cover;" text="     17">
+         <font>
+            <Font name="Jokerman" size="14.0" />
+         </font></TextField>
+      <Button fx:id="startButton" layoutX="407.0" layoutY="296.0" mnemonicParsing="false" onMouseClicked="#startGame" prefHeight="53.0" prefWidth="144.0" style="-fx-background-image: url(&quot;/image/start.png&quot;); -fx-background-size: 150; -fx-background-insets: 40; -fx-background-position: center;" />
+      <ImageView fx:id="cardLord1" fitHeight="65.0" fitWidth="53.0" layoutX="407.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/rear.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cardLord2" fitHeight="65.0" fitWidth="53.0" layoutX="468.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/rear.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cardLord3" fitHeight="65.0" fitWidth="53.0" layoutX="530.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/rear.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="play3Clock" fitHeight="72.0" fitWidth="62.0" layoutX="211.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/clock.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="play2Clock" fitHeight="72.0" fitWidth="62.0" layoutX="739.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/clock.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="play1Clock" fitHeight="72.0" fitWidth="62.0" layoutX="259.0" layoutY="399.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/clock.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="oneFen" fitHeight="124.0" fitWidth="128.0" layoutX="72.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/1fen.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="twoFen" fitHeight="74.0" fitWidth="128.0" layoutX="72.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/2fen.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="threeFen" fitHeight="74.0" fitWidth="128.0" layoutX="72.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/3fen.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bujiao" fitHeight="74.0" fitWidth="128.0" layoutX="73.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/0fen.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lordLose" fitHeight="150.0" fitWidth="200.0" layoutX="406.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/lord_lose.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lordwin" fitHeight="150.0" fitWidth="200.0" layoutX="416.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/lord_win.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="famerWin" fitHeight="150.0" fitWidth="200.0" layoutX="426.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/farmer_win.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="famerLose" fitHeight="150.0" fitWidth="200.0" layoutX="436.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/farmer_lose.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

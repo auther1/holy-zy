@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="574.0" prefWidth="877.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.RegisterController">
+   <children>
+      <ImageView fitHeight="591.0" fitWidth="885.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/R-C.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="189.0" layoutY="74.0" prefHeight="32.0" prefWidth="40.0" text="邮箱" textFill="#030000">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="mailField" layoutX="300.0" layoutY="67.0" opacity="0.51" prefHeight="44.0" prefWidth="329.0" promptText="请输入邮箱" />
+      <Label layoutX="189.0" layoutY="140.0" prefHeight="44.0" prefWidth="40.0" text="密码" textFill="#0a0000">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="178.0" layoutY="212.0" prefHeight="44.0" prefWidth="83.0" text="再次确定密码" textFill="#050000">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="190.0" layoutY="293.0" prefHeight="44.0" prefWidth="59.0" text="昵称" textFill="#171010">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nicknameField" layoutX="300.0" layoutY="287.0" opacity="0.51" prefHeight="44.0" prefWidth="329.0" promptText="请输入昵称" />
+      <PasswordField fx:id="passwordField" layoutX="300.0" layoutY="138.0" opacity="0.51" prefHeight="44.0" prefWidth="329.0" promptText="请输入您的密码" />
+      <PasswordField fx:id="determineField" layoutX="300.0" layoutY="214.0" opacity="0.51" prefHeight="44.0" prefWidth="329.0" promptText="请再次输入密码" />
+      <Button fx:id="registerButton" defaultButton="true" layoutX="209.0" layoutY="411.0" mnemonicParsing="false" onAction="#registerButtonAction" opacity="0.71" prefHeight="32.0" prefWidth="147.0" style="-fx-background-color: #E96151;" text="注册" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="shieldButton" cancelButton="true" layoutX="569.0" layoutY="416.0" mnemonicParsing="false" onAction="#shieldButtonAction" opacity="0.71" prefHeight="32.0" prefWidth="147.0" style="-fx-background-color: #E96151;" text="取消" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="189.0" layoutY="355.0" prefHeight="32.0" prefWidth="83.0" text="电话（可选）" textFill="#0c0000">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="mobileField" layoutX="300.0" layoutY="350.0" opacity="0.51" prefHeight="44.0" prefWidth="329.0" promptText="请输入电话" />
+   </children>
+</AnchorPane>
