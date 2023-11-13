@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!--配置连接数据库的开发环境environments
+        environments中可配置多组environment, 每个environment表示一种数据库的连接配置
+        default的取值是id的值, 表示默认使用该环境
+    -->
+
+    <environments default="mysql">
+
+        <!--MySQL-->
+        <environment id="mysql">
+
+            <!--配置事务管理，委托JDBC负责管理事务-->
+            <transactionManager type="JDBC"/>
+
+            <!--配置数据源，使用POOLED数据源，作用是创建数据库链接-->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <!--1031wzf -我创建的数据库叫jpetstoreMybatis，建议大家用一样的名字-->
+                <property name="url" value="jdbc:mysql://localhost:3306/jpetstoreMybatis?useSSL=false"/>
+                <property name="username" value="root"/>
+                <property name="password" value="123456"/>
+            </dataSource>
+
+        </environment>
+
+    </environments>
+
+
+    <mappers>
+        <!--引入SQL映射文件,相对于类的类路径-->
+        <mapper resource="CSUSoftWare21/web/projectJPetStore/persistence/AccountMapper.xml"/>
+        <mapper resource="CSUSoftWare21/web/projectJPetStore/persistence/ItemMapper.xml"/>
+        <mapper resource="CSUSoftWare21/web/projectJPetStore/persistence/SequenceMapper.xml"/>
+        <mapper resource="CSUSoftWare21/web/projectJPetStore/persistence/CategoryMapper.xml"/>
+    </mappers>
+
+</configuration>
